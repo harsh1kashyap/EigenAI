@@ -128,15 +128,17 @@ a.brand-logo {
 
 
 .btn {
-    align-items: center;
+    align-items:center;
+    display: inline-flex;
+    justify-content: space-between;
     background: #f72585;
     border-radius: 2px;
     border: 0;
     color: #fff;
     cursor: pointer;
-    display: flex;
+    /* display: flex; */
     font-size: 16px;
-    padding: 15px 45px;
+    padding: 10px 34px;
     transition: 0.2s;
     font-weight: 600;
 }
@@ -338,6 +340,7 @@ a.brand-logo {
 
 .register .form .form-row .button-login {
     margin-top: 20px;
+    justify-content: space-around;
 }
 
 .register .btn-login .fas.fa-arrow-right,
